@@ -34,7 +34,8 @@ The example above runs the following step:
 ## async / await
 
 Rewrite the code example in Promise chaining in async/await way.
-_The `await` keyword only works inside `async` function._
+
+**_The `await` keyword only works inside `async` function._**
 
 code example:
 
