@@ -33,7 +33,7 @@ The example above runs the following step:
 
 ## async / await
 
-Rewrite the code example in Promise chaining in async/await way.
+Rewrite the code example in [Promise chaining](https://github.com/shiv-chan/learning-journal/blob/main/JavaScript/Promise.md#promise-chaining) in async/await way.
 
 **_The `await` keyword only works inside `async` function._**
 
@@ -60,11 +60,10 @@ try {
 }
 ```
 
----
 
-### Other example of a promise chaining and async/await rewrite.
+## Other examples of a promise chaining and async/await rewrite.
 
-### Promise chaining
+#### Promise chaining
 
 ```javascript
 const randomNumberPromise = new Promise((resolve, reject) => {
@@ -89,7 +88,7 @@ randomNumberPromise
 	});
 ```
 
-### async/await
+#### async/await
 
 ```javascript
 const randomNumberPromise = new Promise((resolve, reject) => {
