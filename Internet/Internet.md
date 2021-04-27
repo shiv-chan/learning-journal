@@ -17,7 +17,9 @@ They are not written in a human-readable way, so it's also given a **domain name
 | 72.21.211.176  | amazon.com   |
 | 173.0.84.3     | paypal.com   |
 
-The Domain Name System (**DNS**) comes in here. DNS is the phonebook of the Internet. It can translate a domain name to IP address.
+The Domain Name System (**DNS**) comes in here.
+
+DNS is the phonebook of the Internet. It can translate a domain name to IP address.
 
 ### Illustration of how the email is sent:
 
@@ -32,6 +34,8 @@ The devices such as our laptops or mobile phones are called **Client**, and the 
 Whenever the email or whatever data travels across the Internet, computers breaks the information into a smaller parts called **packets**.
 
 When the packets reach to the destination, they are reassembled in the original order to make the informaiton.
+
+### Routers
 
 ![Internet (2)](https://user-images.githubusercontent.com/51708229/116213853-17fcdf00-a781-11eb-84d4-0f6c536d8488.png)
 
