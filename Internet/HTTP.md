@@ -12,10 +12,12 @@ It is a client-server protocol which exchanges any data on the Web between serve
    HTTP request is the message sent by the client, most of the time it is a Web browser.
    > The browser is always the entity initiating the request. It is never the server (though some mechanisms have been added over the years to simulate server-initiated messages).
 3. Receive HTTP response
+
    HTTP response is the message sent by the server.
+
 4. Close a TCP or resume the connection for further requests.
 
-The server and the client could directly exchange, but most of the time there are numerous entities such as modem or routers between two.  These computers are collectively called **proxy**. 
+The server and the client could directly exchange, but most of the time there are numerous entities such as modem or routers between two. These computers are collectively called **proxy**.
 
 ## HTTP request
 
@@ -53,8 +55,6 @@ Content-Type: text/html
 - `OK` is the status message.
 - the rest is HTTP headers.
 - (a body) the fetched resourses like HTML, CSS or image.
-
-
 
 #### Reference
 
