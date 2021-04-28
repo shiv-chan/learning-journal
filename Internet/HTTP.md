@@ -35,7 +35,7 @@ In the HTTP request example...
 - `GET` is an HTTP method. This could also be `POST`, `PUT`, `DELETE`.
 - `/` is a path where to send the HTTP request. This is URL without the protcol (http://), the domain, or the TCP port.
 - `HTTP/1.1` is the version of HTTP protocol.
-- The rest is [HTTP headers](#http-header) which includes an additional information such as host, authentication, caching, cookies or CORS.
+- The rest is [HTTP headers](#http-headers) which includes an additional information such as host, authentication, caching, cookies or CORS.
 - (a body) contain the resourse includes information like name or email address that are sent to the server with POST method.
 
 ## HTTP response
@@ -58,10 +58,10 @@ In the HTTP response example...
 - `HTTP/1.1` is the version of HTTP protocol.
 - `200` is the status code which indicates if the request was successful or not and why.
 - `OK` is the status message.
-- the rest is [HTTP headers](#http-header).
+- the rest is [HTTP headers](#http-headers).
 - (a body) the fetched resourses like HTML, CSS or image.
 
-## HTTP headers {#http-header}
+## HTTP headers
 
 HTTP headers include an additional information attached to an HTTP request or an HTTP response.
 
