@@ -67,13 +67,13 @@ HTTP headers include an additional information attached to an HTTP request or an
 
 There are four types of HTTP headers.
 
-- General header
+**- General header**
 
 This can present in both request and response, and this doesn't affect any on the content itself.
 
 e.g. Cache-Control
 
-- Request header
+**- Request header**
 
 This one is in an HTTP request and send the information about the request context.
 
@@ -81,13 +81,13 @@ The server can tailor the response based on this.
 
 e.g. Authorization, CORS
 
-- Request header
+**- Request header**
 
 This one is in an HTTP response and doesn't relate to the content of the message. This is the information about the context of the response.
 
 e.g. Age, Location, Server
 
-- Entity header
+**- Entity header**
 
 This can present in both an HTTP request and response, and it describes the payload of an HTTP message.
 
@@ -166,4 +166,4 @@ The former accepts the request only from `https://foo.example`, and the latter a
 - [Accept](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept)
 - [Content-Type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type)
 - [HTTP authentication](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication)
-- [](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+- [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
