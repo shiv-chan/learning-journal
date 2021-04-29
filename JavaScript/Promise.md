@@ -110,6 +110,7 @@ async function rainbow() {
 	console.log(message);
 }
 
+//error handling instead of .catch()
 try {
 	rainbow();
 } catch (err) {
