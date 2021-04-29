@@ -235,3 +235,8 @@ try {
 	console.error(error);
 }
 ```
+
+#### References
+- [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+- [The Web Developer Bootcamp 2021](https://www.udemy.com/share/101W9CA0IYd1dVQXQ=/)
+- [JavaScript Promiseの本](https://azu.github.io/promises-book/)
