@@ -19,16 +19,16 @@ However, IP addressed are not human-readable. Then, **domain names** exists to s
 
 ![domain](https://user-images.githubusercontent.com/51708229/116645810-87f1ac00-a9b1-11eb-986b-3ad457b18d4b.png)
 
-- Top level domain (TLD)
+- **Top level domain (TLD)**
 <br>Generic TLDs are such as `.com`, `.org`, or `.net`. TLDs tell users the general purpose of the service.
 <br>Most don't require web services to meet any paticular criteria, but some TLDs need a clear policy showing the web service's purpose. For example, ccSLDs or `.gov`, `.edu`.
 <br>You can register whatever TLDs you want if it's approved.
 
-- Secondary level domain (SLD)
+- **Secondary level domain (SLD)**
 <br>SLD is the domain that is located to the left of the TLD.
 <br>This could be a name of a brand, a product, or a service.
 
-- Country code second-level domains (ccSLD)
+- **Country code second-level domains (ccSLD)**
 <br>ccSLD represents a paticular language or country. This requires the service to be provided in a given language or hosted in a certain country.
 <br>ccSLD includes the following domain: `.us`, `.ca`, `.jp`.
 
