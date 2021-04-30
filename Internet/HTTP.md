@@ -68,30 +68,21 @@ HTTP headers include an additional information attached to an HTTP request or an
 There are four types of HTTP headers.
 
 - **General header**
-
-This can present in both request and response, and this doesn't affect any on the content itself.
-
-e.g. Cache-Control
+<br>This can present in both request and response, and this doesn't affect any on the content itself.
+<br>e.g. Cache-Control
 
 - **Request header**
-
-This one is in an HTTP request and send the information about the request context.
-
-The server can tailor the response based on this.
-
-e.g. Authorization, CORS
+<br>This one is in an HTTP request and send the information about the request context.
+<br>The server can tailor the response based on this.
+<br>e.g. Authorization, CORS
 
 - **Request header**
-
-This one is in an HTTP response and doesn't relate to the content of the message. This is the information about the context of the response.
-
-e.g. Age, Location, Server
+<br>This one is in an HTTP response and doesn't relate to the content of the message. This is the information about the context of the response.
+<br>e.g. Age, Location, Server
 
 - **Entity header**
-
-This can present in both an HTTP request and response, and it describes the payload of an HTTP message.
-
-e.g. Content-Length, Content-Language, Content-Encoding, Content-Type, Expires
+<br>This can present in both an HTTP request and response, and it describes the payload of an HTTP message.
+<br>e.g. Content-Length, Content-Language, Content-Encoding, Content-Type, Expires
 
 ### Accept
 
