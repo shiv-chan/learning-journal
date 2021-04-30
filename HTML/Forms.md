@@ -1,4 +1,4 @@
-## Forms
+# Forms
 
 ```html
 <form action="/thanks" method="GET">
@@ -12,23 +12,20 @@
 </form>
 ```
 
-### `<form>` tag
+## `<form>` tag
 
 A form section is wrapped with `<form>` tag.
 
 There are several attribute for `<form>`, but these two are maily used.
 
 - `action`
-
-It has the URL that processes the form submission.
+<br>It has the URL that processes the form submission.
 
 - `method`
+<br>This can be any HTTP method such as `GET` or `POST` to submit the form. (case-insensitive)
+<br>The example code above has `GET` method, so its data is appended to the URL and lead you to `/thanks` page.
 
-This can be any HTTP method such as `GET` or `POST` to submit the form. (case-insensitive)
-
-The example code above has `GET` method, so its data is appended to the URL and lead you to `/thanks` page.
-
-### `<label>` tag
+## `<label>` tag
 
 `<label>` can be accosiated with `<input>` programmatically.
 
@@ -36,7 +33,7 @@ The value of `for` attribute with `<label>` should be the same as the value of `
 
 In the example above, when you click any label the adjacent `input` gets focused.
 
-### `<input>` tag
+## `<input>` tag
 
 `<input>` looks very different depends on its `type` attribute.
 
@@ -68,11 +65,10 @@ Also, `minlength` and `maxlength` requires the user to enter the value in a cert
 />
 ```
 
-### Tips
+## Tips
 
 - `autocomplete`
-
-`autocomplete` attribute controls each browser's autocomplete function kicks in or not or what type of value should be filled in the input.
+<br>`autocomplete` attribute controls each browser's autocomplete function kicks in or not or what type of value should be filled in the input.
 
 ```html
 <!-- let the browser fill the username and password automatically -->
@@ -81,15 +77,14 @@ Also, `minlength` and `maxlength` requires the user to enter the value in a cert
 ```
 
 - `inputmode`
-
-`inputmode` can specify the keyborad type when the user hits the input. This enforces the usability especially on mobile.
+<br>`inputmode` can specify the keyborad type when the user hits the input. This enforces the usability especially on mobile.
 
 #### References
 
-- [<form>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
-- [<label>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label)
-- [<input>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
-- [HTML <form> method Attribute](https://www.w3schools.com/tags/att_form_method.asp)
+- [&lt;form&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
+- [&lt;label&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label)
+- [&lt;input&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+- [HTML &lt;form&gt; method Attribute](https://www.w3schools.com/tags/att_form_method.asp)
 - [The HTML autocomplete attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete)
 - [inputmode](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/inputmode)
 - [今どきの入力フォームはこう書く！HTML コーダーがおさえるべき input タグの書き方まとめ](https://ics.media/entry/11221/)
