@@ -77,7 +77,7 @@ Each item is needed to be named.
 	grid-area: h;
 }
 
-.main {
+.menu {
 	grid-area: m;
 }
 
@@ -86,7 +86,7 @@ Each item is needed to be named.
 }
 ```
 
-![grid2](https://user-images.githubusercontent.com/51708229/117284300-a53ae480-aea1-11eb-97dc-2a8462737a13.png)
+![grid2](https://user-images.githubusercontent.com/51708229/117291315-c99abf00-aea9-11eb-8e0b-c457a72e8d5b.png)
 
 ### grid-auto-\*
 
