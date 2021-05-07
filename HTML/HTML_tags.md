@@ -19,12 +19,16 @@ HTML boilerplate:
 
 |    Tag     | Description                                                                                                                                                                                                           |
 | :--------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|  article   | A self-contained composition. Independent items and they are reusable. e.g. a forum post, a magazine or newspaper article, or a blog entry, a product card, a user-submitted comment, an interactive widget or gadget |
-|   aside    | A portion of a document and it's indirectly related to the main content. e.g. sidebars, call-out boxes.                                                                                                               |
+|  article   | A self-contained composition.<br> Independent items and they are reusable. <br>e.g. a forum post, a magazine or newspaper article, or a blog entry, a product card, a user-submitted comment, an interactive widget or gadget |
+|   aside    | A portion of a document and it's indirectly related to the main content.<br> e.g. sidebars, call-out boxes.                                                                                                               |
 |  details   |                                                                                                                                                                                                                       |
 | figcaption |                                                                                                                                                                                                                       |
 |   figure   |                                                                                                                                                                                                                       |
+<<<<<<< HEAD
 |   footer   |                                                                                                                                                                                                                       |
+=======
+|   footer   |                                                                                                                                                                                                                      |
+>>>>>>> a594c571866b77bf5690a264b6fae909c3367a15
 |   header   |                                                                                                                                                                                                                       |
 |    main    |                                                                                                                                                                                                                       |
 |    mark    |                                                                                                                                                                                                                       |

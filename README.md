@@ -8,6 +8,7 @@
 - [Hosting](https://github.com/shiv-chan/learning-journal/blob/main/Internet/Hosting.md)
 
 ## [HTML](https://github.com/shiv-chan/learning-journal/tree/main/HTML)
+- [HTML Tags](https://github.com/shiv-chan/learning-journal/blob/main/HTML/HTML_tags.md)
 - [Forms](https://github.com/shiv-chan/learning-journal/blob/main/HTML/Forms.md)
 
 ## [CSS](https://github.com/shiv-chan/learning-journal/blob/main/CSS/README.md)
