@@ -59,8 +59,59 @@ The example above runs like this:
 3. Meanwhile, `end` shows up in the console.
 4. Then, in 3 seconds, the alert pop-up comes up saying `3s delayed!`.
 
+## Main Thread
+
+Thread is where one program or task is processed. 
+
+Most asynchronous JavaScript processes are executed in **the main thread**.
+>The main thread is where a browser processes user events and paints. By default, the browser uses a single thread to run all the JavaScript in your page
+
+```js
+function blockTime(timeout) {
+    const startTime = Date.now();
+    while (true) {
+        const diffTime = Date.now() - startTime;
+        if (diffTime >= timeout) {
+            return;
+        }
+    }
+}
+
+const startTime = Date.now();
+
+setTimeout(() => {
+    const endTime = Date.now();
+    console.log(`It took ${endTime - startTime}milli-seconds till the asynchronous callback was called.`);
+}, 10);
+
+console.log(`start`);
+blockTime(1000); // pauses 1 sec
+console.log(`end`);
+```
+
+The example code above runs in the following steps:
+1. `setTimeout` function is passed to the callback queue.
+2. `console.log(start)` goes to the callstack and runs. It shows `start` in the console.
+3. 1 sec pauses.
+4. `console.log(end)` goes to the callstack and runs. It shows `end` in the console.
+5. Nothing awaits to be executed anymore, so `setTimeout` function in the callback queue comes to the callstack and runs.
+
+If this callback function runs in the other thread than the main thread, it will get blocked 1 sec because of `blockTime(1000)`.<br>
+However, it won't.
+
+This is because JavaScript has a **concurrency model** based on **an event loop**.
+>JavaScript has a concurrency model based on an event loop, which is responsible for executing the code, collecting and processing events, and executing queued sub-tasks.
+
+With this model, the browser executes the function from the top of callstack.<br>
+Also, at the same time, it goes and checkes the callback queue to see if there's any function needed to be executed. This keeps going on like a loop.
+
+Once it has nothing to do, it can execute the functions in the callback queue.
+
+
 #### References
 
 - [JavaScript Primer 非同期処理:コールバック/Promise/Async Function](https://jsprimer.net/basic/async/#async-handling)
 - [Asynchronous Programming](https://eloquentjavascript.net/11_async.html)
 - [Async Javascript Tutorial For Beginners (Callbacks, Promises, Async Await).](https://youtu.be/_8gHHBlbziw)
+- [Main Thread](https://developer.mozilla.org/en-US/docs/Glossary/Main_thread)
+- [Concurrency model and the event loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
