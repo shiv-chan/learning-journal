@@ -24,11 +24,7 @@ HTML boilerplate:
 |  details   |                                                                                                                                                                                                                       |
 | figcaption |                                                                                                                                                                                                                       |
 |   figure   |                                                                                                                                                                                                                       |
-<<<<<<< HEAD
-|   footer   |                                                                                                                                                                                                                       |
-=======
 |   footer   |                                                                                                                                                                                                                      |
->>>>>>> a594c571866b77bf5690a264b6fae909c3367a15
 |   header   |                                                                                                                                                                                                                       |
 |    main    |                                                                                                                                                                                                                       |
 |    mark    |                                                                                                                                                                                                                       |
@@ -36,6 +32,7 @@ HTML boilerplate:
 |  section   |                                                                                                                                                                                                                       |
 |  summary   |                                                                                                                                                                                                                       |
 |    time    |
+
 
 #### References
 
