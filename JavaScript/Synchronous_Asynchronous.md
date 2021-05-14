@@ -55,9 +55,9 @@ console.log(`end`);
 The example above runs like this:
 
 1. Shows `start` in the console when it's executed.
-2. `asyncDelayAlert(3000)` is sent to the Web Apis, and start to run.
+2. `asyncDelayAlert(3000)` is passed to the callback queue.
 3. Meanwhile, `end` shows up in the console.
-4. Then, in 3 seconds, the alert pop-up comes up saying `3s delayed!`.
+4. Then, in 3 seconds or more, the alert pop-up comes up saying `3s delayed!`.
 
 ## Main Thread
 
