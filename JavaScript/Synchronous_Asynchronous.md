@@ -96,8 +96,8 @@ The example code above runs in the following steps:
 4. `console.log(end)` goes to the callstack and runs. It shows `end` in the console.
 5. Nothing awaits to be executed anymore, so `setTimeout` function in the callback queue comes to the callstack and runs.
 
-If this callback function runs in the other thread than the main thread, it will get blocked 1 sec because of `blockTime(1000)`.<br>
-However, it won't.
+If this callback function runs in the other thread than the main thread, it won't get blocked 1 sec because of `blockTime(1000)` and will run in 10 milli-seconds.<br>
+However, it will get blocked and take 1000 milli-seconds and more to start running.
 
 This is because JavaScript has a **concurrency model** based on **an event loop**.
 >JavaScript has a concurrency model based on an event loop, which is responsible for executing the code, collecting and processing events, and executing queued sub-tasks.
